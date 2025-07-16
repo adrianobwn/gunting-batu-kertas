@@ -1,1 +1,1 @@
-# gunting-batu-kerta
+# gunting-batu-kertas
