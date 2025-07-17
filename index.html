@@ -6,6 +6,31 @@
   <link rel="stylesheet" href="styleUI.css">
 </head>
 <body>
+  <h1 class="judul">Batu Gunting Kertas</h1>
+  <h1 class="subjudul">Score Board</h1>
+  <div class="result-area">
+    <div class="score">
+      <div class="you">
+        <p>You</p>
+        <span id="score_kamu">0</span>
+      </div>
+      <div class="computer">
+        <p>Computer</p>
+        <span id="score_komputer">0</span>
+      </div>
+    </div>
+    <span id="outcome"></span>
+  </div>
+  <div class="choices">
+    <span id="player-choice"></span>
+    <span id="computer-choice"></span>
+  </div>
+  <div class="buttons">
+    <button class="button" data-choice="👊">👊</button>
+    <button class="button" data-choice="🖐️">🖐️</button>
+    <button class="button" data-choice="✌️">✌️</button>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
